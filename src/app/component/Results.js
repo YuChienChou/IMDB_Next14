@@ -6,7 +6,7 @@ export default function Results({ results}) {
       {
         results.map((result) => (
           <div key={result.id}>
-            <h1>{result.title || result.name}</h1>
+            <h2>{result.title || result.name}</h2>
           </div>
         ))
       }
