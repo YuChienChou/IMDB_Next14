@@ -32,7 +32,7 @@ export default async function Home({ searchParams}) {
 
   const results = data.results;
 
-  console.log("results", results);
+  // console.log("results", results);
 
   return (
     <div>
