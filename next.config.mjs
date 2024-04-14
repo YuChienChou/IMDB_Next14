@@ -9,6 +9,9 @@ const nextConfig = {
             }
         ]
     },
+    experimental: {
+        newNextLinkBehavior: true,
+    },
 };
 
 export default nextConfig;
