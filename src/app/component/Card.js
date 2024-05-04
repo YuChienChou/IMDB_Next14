@@ -13,7 +13,7 @@ export default function Card( { result }) {
           width={500}
           height={300}
           alt={result.title || result.name}
-          className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300 w-[500px] h-[300px] object-cover sm:rounded-b-none sm:w-full sm:h-[300px] sm:object-cover"
+          className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300 object-cover sm:rounded-b-none sm:w-full sm:h-[300px] sm:object-cover"
         />
         <div className="p-2">
           <p className="line-clamp-2 text-md">{result.overview}</p>
