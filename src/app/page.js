@@ -3,9 +3,9 @@ import Results from "./component/Results";
 const API_KEY = process.env.API_KEY; // API_KEY is used here to access the environment variable in the code and it is not exposed to the client side.
 
 
-export default async function Home({ searchParams}) {
+export default async function Home({ searchParams }) {
   const genre = searchParams.genre || "fetchTrending";
-  
+
   const res = await fetch(
     `https://api.themoviedb.org/3/${
       genre === 'fetchTopRated' ? `/movie/top_rated` : `/trending/all/week`
